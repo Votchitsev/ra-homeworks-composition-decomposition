@@ -1,0 +1,12 @@
+.advertising {
+  display: flex;
+  width: 58%;
+  height: 100px;
+  background-color: grey;
+  margin-top: 20px;
+  margin-left: 17%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 218, 218);
+  font-size: 2em;
+}

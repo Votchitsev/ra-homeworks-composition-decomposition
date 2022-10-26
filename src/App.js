@@ -3,6 +3,7 @@ import data from './data';
 import TopNews from './components/TopNews/TopNews';
 import TopNewsAdvertising from './components/TopNews/TopNewsAdvertising';
 import Search from './components/Search/Search';
+import Advertising from './components/Advertising/Advertizing';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <TopNewsAdvertising /> 
       </section>
       <Search services={ data.services } searchExemple={ data.searchExemple } />
+      <Advertising />
     </div>
   );
 }
