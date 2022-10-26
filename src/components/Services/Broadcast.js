@@ -1,3 +1,7 @@
+/**
+ * Компонент отображает карточку "Эфир".
+ */
+
 import play from './play.svg';
 
 function Broadcast({ data }) {

@@ -1,3 +1,7 @@
+/**
+ * Компоннент собирает все карточки для секции с сервисами.
+ */
+
 import Weather from './Weather';
 import Map from './Map';
 import Visited from './Visited';
@@ -15,7 +19,9 @@ function Services( { services }) {
       <Service data={ services.visited }>
         <Visited data={ services.visited } />
       </Service>
-      <Map data={ services.germanyMap } />
+      <Service data={ services.germanyMap }>
+        <Map data={ services.germanyMap } />
+      </Service>
       <Service data={ services.tv }>
         <TvPropgramm data={ services.tv }/>
       </Service>

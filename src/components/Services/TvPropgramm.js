@@ -1,3 +1,7 @@
+/**
+ * Компонент отображает карточку "Телепрограмма".
+ */
+
 function TvPropgramm({ data }) {
   return (
     <div className="main-services-item--content">

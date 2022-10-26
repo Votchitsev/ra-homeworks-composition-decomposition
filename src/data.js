@@ -26,6 +26,7 @@ const data = {
       ]
     },
     {
+      id: 2,
       topicName: 'В Германии',
       articles: [
         {
@@ -35,6 +36,7 @@ const data = {
       ]
     },
     {
+      id: 3,
       topicName: 'Рекомендуем',
       articles: [
         {

@@ -1,3 +1,7 @@
+/**
+ * Компонент отображает карточку "Посещаемое".
+ */
+
 function Visited({ data }) {
   return (
     <div className="main-services-item--content">

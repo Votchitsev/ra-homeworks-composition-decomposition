@@ -1,10 +1,14 @@
+/**
+ * Компонент отображает строку поиска, подсказки ниже неё и категории над строкой.
+ */
+
 import './Search.css';
 
 function Search({ services, searchExemple }) {
   return (
     <section className="search">
       <ul className="services-list">
-        { services.map(service => <li className="service-item">{ service.value }</li>) }
+        { services.map(service => <li className="service-item" key={ service.id }>{ service.value }</li>) }
       </ul>
       <form className="search-field">
         <div className="search-field--logo">

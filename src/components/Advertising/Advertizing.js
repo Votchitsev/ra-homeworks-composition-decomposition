@@ -1,3 +1,7 @@
+/**
+ * Компонент отображает блок с рекламой под формой поиска.
+ */
+
 import './Advertising.css';
 
 function Advertising() {

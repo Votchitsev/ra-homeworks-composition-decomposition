@@ -1,3 +1,7 @@
+/**
+ * Компонент отображает рекламу справа от списка ТОП-новостей.
+ */
+
 import inYang from './in-yang.svg';
 
 function TopNewsAdvertising() {

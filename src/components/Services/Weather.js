@@ -1,3 +1,7 @@
+/**
+ * Компонент отображает карточку "Погода".
+ */
+
 import cloud from './cloud.svg';
 
 function Weather({ data }) {
