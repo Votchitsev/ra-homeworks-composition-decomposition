@@ -1,0 +1,73 @@
+.services-container {
+  width: 35%;
+  margin: 50px 17%;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  flex-wrap: wrap;
+}
+
+.main-services-item {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.main-services-item--title {
+  display: flex;
+  font-size: 1.5em;
+  color: blue;
+  margin-bottom: 15px;
+}
+
+.weather {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.weather > * {
+  margin-right: 10px;
+}
+
+.weather-temperature {
+  font-size: 2em;
+}
+
+.main-services-item--content {
+  display: flex;
+  flex-direction: column;
+}
+
+.visited-item--title {
+  font-weight: bold;
+}
+
+.visited-item {
+  padding: 0.5em 0;
+}
+
+.tv-programm-item {
+  padding: 0.5em 0;
+}
+
+.broadcast-item {
+  padding: 0.5em 0;
+}
+
+.chanel {
+  color: grey;
+}
+
+.title-button {
+  display: flex;
+  background-color: blue;
+  width: 200px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

@@ -4,6 +4,7 @@ import TopNews from './components/TopNews/TopNews';
 import TopNewsAdvertising from './components/TopNews/TopNewsAdvertising';
 import Search from './components/Search/Search';
 import Advertising from './components/Advertising/Advertizing';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </section>
       <Search services={ data.services } searchExemple={ data.searchExemple } />
       <Advertising />
+      <Services services={ data.mainServices }/>
     </div>
   );
 }

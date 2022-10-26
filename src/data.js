@@ -92,6 +92,82 @@ const data = {
     }
   ],
   searchExemple: 'фаза луны сегодня',
+  mainServices: {
+    weather: {
+      title: 'Погода',
+      temperature: '+17',
+      morning: '+17',
+      afternoon: '+20',
+    },
+    germanyMap: {
+      title: 'Карта Германии',
+      content: 'Расписания',
+    },
+    visited: {
+      title: 'Посещаемое',
+      items: [
+        {
+          id: 1,
+          title: 'Недвижимость',
+          content: 'о сталинках',
+        },
+        {
+          id: 2,
+          title: 'Маркет',
+          content: 'люстры и светильники',
+        },
+        {
+          id: 3,
+          title: 'Авто.ру',
+          content: 'привод 4*4 до 500 000',
+        }
+      ]
+    },
+    tv: {
+      title: 'Телепрограмма',
+      titleButton: true,
+      items: [
+        {
+          id: 1,
+          time: '02:00',
+          content: 'ТНТ.Best',
+          chanel: 'THT International',
+        },
+        {
+          id: 2,
+          time: '02:15',
+          content: 'Джинглики',
+          chanel: 'Карусель INT',
+        },
+        {
+          id: 3,
+          time: '02:25',
+          content: 'Наедине со всеми',
+          chanel: 'Первый',
+        }
+      ]
+    },
+    broadcast: {
+      title: 'Эфир',
+      items: [
+        {
+          id: 1,
+          content: 'Управление как искусство',
+          chanel: 'Успех',
+        },
+        {
+          id: 2,
+          content: 'Ночь. Мир в это время',
+          chanel: 'earthTV',
+        },
+        {
+          id: 3,
+          content: 'Андрей Возн...',
+          chanel: 'Совершенно секретно',
+        }
+      ]
+    }
+  }
 }
 
 export default data;
